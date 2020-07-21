@@ -13,7 +13,9 @@ namespace InsightEngine
         // Called when game started or when spawned
         void BeginPlay()
         {
-            Console.WriteLine(this.Transform.ToString());
+            //Console.WriteLine("Hello!");
+            //Console.WriteLine("New Hello!");
+            //Console.WriteLine(this.Transform.ToString());
         }
 
         // Called once per frame

@@ -17,8 +17,8 @@ project (csharpAssemblyProjectName)
 	location(csharpAssemblyProjectName)
 	kind("SharedLib")
 	language("C#")
-	targetdir ("Bin/" .. outputdir .. "/%{prj.name}")
-	objdir ("Bin-Int/" .. outputdir .. "/%{prj.name}")
+	targetdir ("Binaries/" .. outputdir .. "/%{prj.name}")
+	objdir ("Binaries/Intermediates/" .. outputdir .. "/%{prj.name}")
 
 	files
 	{

@@ -50,10 +50,13 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Internal\Camera.cs" />
     <Compile Include="Internal\Input.cs" />
     <Compile Include="Internal\ScriptableBehavior.cs" />
     <Compile Include="Internal\Transform.cs" />
     <Compile Include="Internal\Vector3.cs" />
+    <Compile Include="Internal\World.cs" />
+    <Compile Include="Source\Camera_Controller.cs" />
     <Compile Include="Source\Rotator.cs" />
   </ItemGroup>
   <ItemGroup>
